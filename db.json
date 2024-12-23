@@ -1,0 +1,93 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "productName": "Economy",
+      "unit": "Kg",
+      "price": 10000
+    },
+    {
+      "productName": "Premium Economy",
+      "unit": "Piece",
+      "price": "15000",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "productName": "Business",
+      "unit": "Kg",
+      "price": 20000
+    },
+    {
+      "id": "4",
+      "productName": "First",
+      "unit": "Piece",
+      "price": 25000
+    }
+  ],
+  "customers": [
+    {
+      "id": "1",
+      "customerName": "Budi",
+      "address": "Surabaya",
+      "phone": "08123456789"
+    },
+    {
+      "customerName": "Rina",
+      "address": "Malang",
+      "phone": "08112154526",
+      "id": "2"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "5bf8",
+      "customerId": "1",
+      "productId": "3",
+      "date": "2024-12-18",
+      "quantity": "3"
+    },
+    {
+      "id": "8f77",
+      "customerId": "2",
+      "productId": "2",
+      "date": "2024-12-18",
+      "quantity": "3"
+    },
+    {
+      "id": "3d51",
+      "customerId": "1",
+      "productId": "1",
+      "date": "2024-12-19",
+      "quantity": "4"
+    },
+    {
+      "id": "13de",
+      "customerId": "2",
+      "productId": "4",
+      "date": "2024-12-19",
+      "quantity": "2"
+    },
+    {
+      "id": "bbdd",
+      "customerId": "1",
+      "productId": "4",
+      "date": "2024-12-19",
+      "quantity": "1"
+    },
+    {
+      "id": "9c80",
+      "customerId": "2",
+      "productId": "3",
+      "date": "2024-12-21",
+      "quantity": "6"
+    },
+    {
+      "id": "abc7",
+      "customerId": "1",
+      "productId": "1",
+      "date": "2024-12-21",
+      "quantity": "2"
+    }
+  ]
+}
